@@ -5,7 +5,7 @@ using System;
 
 namespace LaserTower
 {
-    public class FireLaser : MonoBehaviour,IFireLaser
+    public class FireLaser : MonoBehaviour, IFireLaser
     {
         [SerializeField]
         private float maxRayDistance;
@@ -15,10 +15,12 @@ namespace LaserTower
         public float MaxRayPower { get => maxRayPower; }
         [SerializeField]
         private Inputs inputs;
+        [SerializeField]
+        private GameObject gun;
+        [SerializeField]
+        private GameObject startPoint;
         void Start()
         {
-            GameObject gun = GameObject.Find("Gun");
-            GameObject startPoint = GameObject.Find("StartPoint");
             List<Vector3> listOfPoint = new List<Vector3>();
             inputs.FireAction
                 .Where(x => x == true)

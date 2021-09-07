@@ -10,15 +10,15 @@ namespace LaserTower
         [SerializeField]
         private Inputs inputs;
         private float angleX;
-        private float AngleX 
-        { 
-            get { return angleX; } 
-            set 
-            { 
-                if (value < 5) angleX = 5; 
-                else if (value > 85) angleX = 85; 
-                else angleX = value; 
-            } 
+        private float AngleX
+        {
+            get { return angleX; }
+            set
+            {
+                if (value < 5) angleX = 5;
+                else if (value > 85) angleX = 85;
+                else angleX = value;
+            }
         }
         private float angleY;
         private float AngleY
@@ -37,7 +37,7 @@ namespace LaserTower
             AngleY = gun.transform.eulerAngles.y;
             AngleX = gun.transform.eulerAngles.x;
             inputs.MoveAction
-                .Subscribe(v => RotateLogic(gun,v))
+                .Subscribe(v => RotateLogic(gun, v))
                 .AddTo(this);
         }
         private void RotateLogic(GameObject gun, Vector2 inputVector)

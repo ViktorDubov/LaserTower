@@ -1,0 +1,109 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 24493 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/UNITY/LaserTower
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53884
+Successfully changed project path to: C:/UNITY/LaserTower
+C:/UNITY/LaserTower
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UNITY/LaserTower/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4023 MB
+    Driver:   26.21.14.4166
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000911 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.690 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.814 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.9 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 4.057846 ms (FindLiveObjects: 0.294564 ms CreateObjectMapping: 0.149333 ms MarkObjects: 2.150564 ms  DeleteObjects: 1.462154 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/FireLaser.cs
+  artifactKey: Guid(9e3cd716d53e4c94295f16d64aedfc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FireLaser.cs using Guid(9e3cd716d53e4c94295f16d64aedfc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c049cce774bad2cdf041a818d2f5a8') in 0.067453 seconds
+  Import took 0.088099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Scripts/ButtonAction.cs
+  artifactKey: Guid(977a76438f586bc419aa173c89ff67d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonAction.cs using Guid(977a76438f586bc419aa173c89ff67d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae9420155c58694e12f8445ce34342f') in 0.035702 seconds
+  Import took 0.047265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scripts/Inputs.cs
+  artifactKey: Guid(6eb57ee87a79ace43bed37143a1b9844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inputs.cs using Guid(6eb57ee87a79ace43bed37143a1b9844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fdb94b26957f679f4df35a8f40a718') in 0.034356 seconds
+  Import took 0.039182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scripts/TowerController.cs
+  artifactKey: Guid(0329fb7bb619375498c95b0bdaf32b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TowerController.cs using Guid(0329fb7bb619375498c95b0bdaf32b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8491748e7ace21e1f3e6560a1b782c5') in 0.031106 seconds
+  Import took 0.036217 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

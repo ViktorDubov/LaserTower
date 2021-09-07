@@ -7350,6 +7350,8 @@ MonoBehaviour:
   maxRayDistance: 100
   maxRayPower: 10
   inputs: {fileID: 199528739}
+  gun: {fileID: 1114202771}
+  startPoint: {fileID: 1298357459}
 --- !u!1 &344388230
 GameObject:
   m_ObjectHideFlags: 0

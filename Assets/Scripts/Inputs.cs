@@ -12,7 +12,7 @@ namespace LaserTower
 
         private IObservable<Vector2> moveAction;
         public IObservable<Vector2> MoveAction { get { if (moveAction == null) moveAction = GetMove(); return moveAction; } }
-        
+
         private IObservable<bool> fireAction;
         public IObservable<bool> FireAction { get { if (fireAction == null) fireAction = GetFire(); return fireAction; } }
 
